@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+    <title>Jade Xa Architecture Project</title>
+    <meta name="author" content="Jade Xa">
+</head>
+
+<body>
+    
+    <div id="headerWrapper">
+    <header>
+        <img src="images/ia.png" alt="logo" style="width: 50px; height: auto;">
+        <h1>Exterior Architects</h1>
+    </header>
+</div>
+
+<div id="navWrapper">
+    <nav>
+        <ul>
+            <li><a href="#">About Us</a>
+            <li class="active"><a href="#">Architecture Video</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <main>
+        <picture class="hero">
+            <source media="(max-width: 700px)" srcset="images/hero1x.webp">
+            <source media="(max-width: 1100px)" srcset="images/hero2x.webp">
+            <img src="images/hero3x.webp" alt="Architecture" width="1500" height="845">
+        </picture>
+        <video controls>
+            <source src="media/jade.mp4" type="video/mp4" />
+            <source src="media/jade.webm" type="video/webm" />
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="EN"
+              src="media/jade-en.vtt"
+              default />
+            <track
+              label="Español"
+              kind="subtitles"
+              srclang="ES"
+              src="media/jade.es.vtt" />
+          </video>
+          <details>
+            <summary>Video Transcript</summary>
+            <p>Hello friends today let's talk about one of the Nature's most adorable animals the giant panda from their big round face to their playful personalities pandas have stolen hearts all over the world here are some reasons why these black and white fluff balls are just the cutest things in the world first let's talk about their eyes pandas have those big expressive eyes with unique black patches around them this makes them look like they're wearing eyeliner and gives them a a constant look of curiosity and surprise and it only makes them look more lovable pandas are known for being adorably clumsy they love to roll around slide down hills and play fight with each other watching a panda trip fall and get back up like nothing happens is a guaranteed smile maker they're a reminder that some sometimes it's okay to be a little clumsy did you know that pandas speed up to 14 hours a day eating bamboo they munch on it in the most relaxing way lying on their backs or even draped across the tree branch chomping away like they don't have a care in the world their dedication to their favorite snack is pretty adorable and let's not forget panda cubs baby pandas are born tiny and pink and they grow up into little balls of fluff watching them learn to walk tumble and explore the world is heart melting they're like little stuff animals come to life pandas don't walk they they waddle their short legs and round bodies make them move in the cutest little shuffle just watching them walk is enough to make them anyone say awh pandas aren't just cute they also have a symbol of peace and friendship native to China they have become a beloved animal worldwide reminding us of the importance of conservation and cooperation across borders so there you have it pandas are more than just cute animals they're symbols of joy peace and the power of being yourself even if that means being a little clumsy sometimes next time you need a smile just look up a video of panda playing we promise it'll make your day thanks for watching</p>
+          </details>
+    </main>
+    
+    <footer id="footerWrapper">
+        <p>&copy; Jade Xa &bull; 2024</p>
+    </footer>
+</body>
+</html>
